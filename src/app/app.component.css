@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+
+  .Container {
+    display: flex;
+    background-color: rgb(245, 240, 240);
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Adjust the height as needed */
+    border: 2px solid #111010; /* Border around the container */
+    padding: 10px; /* Padding inside the container */
+  }
+  input {
+    margin-bottom: 30px;
+    padding: 15px;
+   
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
